@@ -172,6 +172,7 @@ body {
   margin: auto;
   fill: currentColor;
   transition: inherit;
+  flex-shrink: 0;
 }
 
 .card {
