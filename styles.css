@@ -163,15 +163,14 @@ body {
   box-shadow: inset 0 0 0 #fff;
 }
 
-.button-print:hover svg,
-.button-print:focus-visible svg {
+.button-print:hover .icon-print,
+.button-print:focus-visible .icon-print {
   transform: scale(1.2) rotate(20deg);
 }
 
-.button-print svg {
+.button-print .icon-print {
   width: 1em;
   height: 1em;
-  fill: currentColor;
   transition: inherit;
   flex-shrink: 0;
 }
@@ -192,6 +191,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   padding: 2em;
   border-top: 2px dotted var(--pink);
   margin: 2em calc(var(--site-padding) * -1) 0;
